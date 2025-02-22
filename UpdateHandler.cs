@@ -19,7 +19,6 @@ namespace HomeWork24
     {
         public MessageHandler? OnHandleUpdateStarted;
         public MessageHandler? OnHandleUpdateCompleted;
-        //public record CatFactDto(string Fact, int length);
 
         async Task IUpdateHandler.HandleErrorAsync(ITelegramBotClient botClient, Exception exception, HandleErrorSource source, CancellationToken cancellationToken)
         {
